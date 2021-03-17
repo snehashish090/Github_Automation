@@ -17,7 +17,7 @@ def Config(name):
     input1.send_keys("snehashish090")
 
     input2 = driver.find_element_by_id("password")
-    input2.send_keys("snehashish08036")
+    input2.send_keys("")
 
     button1 = driver.find_element_by_xpath("/html/body/div[3]/main/div/div[4]/form/div/input[12]").click()
 
